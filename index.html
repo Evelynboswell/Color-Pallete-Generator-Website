@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Pallete Generator From Image</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <section id="section">
+    <h1>Color Pallete Generator</h1>
+    <p>Generated Color Pallete From Image</p>
+    <hr class="hr" />
+    </section>
+    <div class="hero">
+    <label for="input-file" id="drop-area">
+        <input type="file" accept="image/*" id="input-file" hidden>
+        <div id="img-view">
+            <img src="icon.png" id="icon">
+            <p>Click here or drag and drop<br>to upload an image</p>
+            <span>Upload any images from desktop</span>
+        </div>
+    </label>
+    </div>
+    <hr class="hr2"/>
+    <hr class="hr2"/>
+    <hr class="hr2"/>
+    <canvas id="canvas"></canvas>
+    <hr class="hr2"/>
+    <hr class="hr2"/>
+    <hr class="hr2"/>
+    <div id="palette"></div>
+    <hr class="hr2"/>
+    <div id="complementary"></div>
+    <script src="upload.js"></script>
+    <script src="color.js"></script>
+    <hr class="hr2"/>
+    <hr class="hr2"/>
+</body>
+</html>
